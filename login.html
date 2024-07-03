@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+
+
+    <link rel="stylesheet" href="login.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-card">
+            <div class="left-box">
+                <div class="left-section-box ">
+                    <div class="text-box">
+                        <h1>Spring Boot With <a id="oauth-title">OAuth 2.0</a>
+                            <br>and <a id="jwt-title">JWT</a>
+                        </h1>
+
+                        <p>This application was made using Spring Boot 3.2
+                            and contains security implementation, using de json web tokens and Oauth 2.0. </p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="right-box">
+                <div class="right-section-box ">
+                    <div class="header-box">
+                        <ul>
+                            <li><a href="/login.html">Login</a></li>
+                            <li><a href="/cadastro.html">cadastro</a></li>
+                        </ul>
+                    </div>
+                    <div class="form">
+                        <form action="submit">
+
+                            <input type="text" name="email" id="email" placeholder="Email">
+                            <input type="text" name="password" id="password" placeholder="Password">
+                            <div class="forgetPassword">
+                                <a href="/login.html">Esqueci minha senha</a>
+                            </div>
+                            <button id="submitButton">Login</button>
+                        </form>
+                    </div>
+                    <div class="oauth-buttons">
+                        <div class="oauth-button">
+                            <img src="./images/google.svg" alt="">
+                            <p>Sign in with Google</p>
+                        </div>
+                        <div class="oauth-button">
+                            <img src="./images/github.png" alt="">
+                            <p>Sign in with Github</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
